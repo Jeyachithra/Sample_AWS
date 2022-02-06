@@ -1,0 +1,10 @@
+asyncio
+lxml
+selenium
+cssselect
+requests
+PyMySql
+sqlalchemy
+aiohttp
+fake_useragent
+recommonmark
