@@ -12,5 +12,8 @@ res = requests.get(html)
 res.raise_for_status()
 soup = bs4.BeautifulSoup(res.content, "lxml")#'html5lib'
 
+print("Welcome to Scrapping")
+
+
 titles = soup.find_all("div",attrs={"class":"TopLocPie"})
 print(titles)
